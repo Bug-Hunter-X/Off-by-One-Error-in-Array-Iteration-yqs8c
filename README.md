@@ -1,0 +1,2 @@
+# Off-by-One Error in Array Iteration
+This repository demonstrates a common but subtle programming error: the off-by-one error.  The Java code in `bug.java` contains a loop that iterates one element beyond the valid index range of an array, leading to an `IndexOutOfBoundsException`. The corrected version is in `bugSolution.java`.
